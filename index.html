@@ -145,28 +145,27 @@
 
     .legend {
       position: absolute;
-      top: 18px;
+      top: 58px;
       right: 18px;
-    
       display: flex;
       flex-direction: column;
-      gap: 8px;
-    
-      font-size: 15px;
-      font-weight: 600;
-    
-      background: rgba(255,255,255,0.9);
+      gap: 10px;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.96);
       border: 1px solid var(--line);
-      border-radius: 10px;
-      padding: 10px 14px;
-    
+      border-radius: 14px;
+      padding: 14px 16px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      z-index: 5;
     }
 
     .legend-item {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
+      white-space: nowrap;
     }
 
     .dot {
@@ -189,6 +188,18 @@
       .bar {
         font-size: 11px;
         padding: 0 8px;
+      }
+
+      .legend {
+        top: 62px;
+        right: 14px;
+        font-size: 14px;
+        padding: 12px 14px;
+      }
+
+      .dot {
+        width: 16px;
+        height: 16px;
       }
     }
 
@@ -223,7 +234,16 @@
       }
 
       .legend {
+        top: 64px;
+        right: 10px;
         font-size: 12px;
+        gap: 8px;
+        padding: 10px 12px;
+      }
+
+      .dot {
+        width: 14px;
+        height: 14px;
       }
     }
 
@@ -250,6 +270,12 @@
         font-size: 9px;
         padding: 0 4px;
       }
+
+      .legend {
+        position: static;
+        margin: 10px 0 0 auto;
+        width: fit-content;
+      }
     }
   </style>
 </head>
@@ -268,6 +294,14 @@
         <div class="year">2027</div>
         <div class="year">2028</div>
         <div class="year">2029</div>
+      </div>
+
+      <div class="legend">
+        <div class="legend-item"><span class="dot c1"></span><span>Power Conversion</span></div>
+        <div class="legend-item"><span class="dot c2"></span><span>Wireless Power & Charging</span></div>
+        <div class="legend-item"><span class="dot c3"></span><span>EV & Automotive</span></div>
+        <div class="legend-item"><span class="dot c4"></span><span>ESS / Infrastructure / Aerospace</span></div>
+        <div class="legend-item"><span class="dot c5"></span><span>Control / Device / Simulation</span></div>
       </div>
 
       <div class="rows">
@@ -461,14 +495,6 @@
           </div>
         </div>
 
-      </div>
-
-      <div class="legend">
-        <div class="legend-item"><span class="dot c1"></span><span>Category 1</span></div>
-        <div class="legend-item"><span class="dot c2"></span><span>Category 2</span></div>
-        <div class="legend-item"><span class="dot c3"></span><span>Category 3</span></div>
-        <div class="legend-item"><span class="dot c4"></span><span>Category 4</span></div>
-        <div class="legend-item"><span class="dot c5"></span><span>Category 5</span></div>
       </div>
     </div>
   </div>
