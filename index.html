@@ -1,39 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-<meta charset="UTF-8">
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-<script>
-mermaid.initialize({ startOnLoad:true });
-</script>
-
-<style>
-body{
-font-family:Arial;
-margin:0;
-padding:20px;
-background:white;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Projects Timeline</title>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'default',
+      securityLevel: 'loose'
+    });
+  </script>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: Arial, "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+      background: #ffffff;
+    }
+    .wrapper {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin: 0 0 16px 0;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .chart-box {
+      overflow-x: auto;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 16px;
+      background: #fff;
+    }
+    .mermaid {
+      min-width: 1400px;
+    }
+  </style>
 </head>
-
 <body>
-
-<div class="mermaid">
+  <div class="wrapper">
+    <h1>Research Projects Timeline</h1>
+    <div class="chart-box">
+      <pre class="mermaid">
 gantt
-title Research Projects
-dateFormat YYYY-MM-DD
-axisFormat %Y
+    title 연구 프로젝트 일정
+    dateFormat YYYY-MM-DD
+    axisFormat %Y
+    todayMarker off
 
-고신뢰성 UPS 제어 알고리즘 개발 (에어포인트) :2026-01-01,2026-12-31
-전기차 OBC 통합 평면 변압기 최적화 연구 (현대자동차) :2025-01-01,2026-12-31
-ESS용 전력변환시스템 신뢰성 고도화 연구 (LS일렉트릭) :2025-01-01,2026-12-31
-반도체 변압기 시뮬레이션 플랫폼 개발 (LS일렉트릭) :2025-01-01,2025-12-31
-우주항공용 내방사선 GaN기반 DC-DC 컨버터 개발 (한국전자통신연구원) :2025-01-01,2029-12-31
-ESS용 3레벨 인버터 기반 PCS 최적 설계 (에코캡) :2024-01-01,2025-12-31
-GaN 기반 전기차 온보드 충전기 최적 회로 연구 (현대자동차) :2023-01-01,2026-12-31
-차세대 고밀도 전기차 급속충전소 연구 (KAIST) :2020-01-01,2022-12-31
-</div>
-
+    고신뢰성 UPS 제어 알고리즘 개발 (에어포인트) :a1, 2026-01-01, 2026-12-31
+    전기차 OBC 통합 평면 변압기 최적화 연구 (현대자동차) :a2, 2025-01-01, 2026-12-31
+    ESS용 전력변환시스템 신뢰성 고도화 연구 (LS일렉트릭) :a3, 2025-01-01, 2026-12-31
+    반도체 변압기 시뮬레이션 플랫폼 개발 (LS일렉트릭) :a4, 2025-01-01, 2025-12-31
+    우주항공용 내방사선 GaN기반 DC-DC 컨버터 개발 (한국전자통신연구원) :a5, 2025-01-01, 2029-12-31
+    고속 고장 검출 및 분류 알고리즘 개발 (동우일렉트릭) :a6, 2025-01-01, 2025-12-31
+    ESS용 3레벨 인버터 기반 PCS 최적 설계 (에코캡) :a7, 2024-01-01, 2025-12-31
+    고접압 전기차 배터리 전력제어 기술 개발 (셀포인트) :a8, 2024-01-01, 2025-12-31
+    전기추진선박 모터 구동 HILS 모델 개발 (현대일렉트릭) :a9, 2023-01-01, 2023-12-31
+    수소 연료전지 기반 전기트렉터 개발 (농림축산식품부) :a10, 2023-01-01, 2023-12-31
+    GaN 기반 전기차 온보드 충전기 최적 회로 연구 (현대자동차) :a11, 2023-01-01, 2026-12-31
+    특고압 직류 수전용 2MW 모듈형 컨버터스테이션 기술 개발 (산업통상자원부) :a12, 2022-01-01, 2026-12-31
+    로봇향 3.3kW 군집 무선충전 핵심기술 개발 (과학기술정보통신부) :a13, 2022-01-01, 2025-12-31
+    20kW 급 전기구동 트랙터 상용화 기술 개발 (농림축산식품부) :a14, 2022-01-01, 2024-12-31
+    지하도시 고밀도 전력인프라 구현을 위한 핵심 기술 개발 (KAIST) :a15, 2022-01-01, 2023-12-31
+    PMIC 소형화를 위한 회로 및 제어 기법 연구 (삼성전자) :a16, 2022-01-01, 2022-12-31
+    e-모빌리티 업사이클링 핵심 기술 개발 (KAIST) :a17, 2021-01-01, 2022-12-31
+    양방향 무선전력전송 SiC 기반 고효율 전력변환모듈 개발 (전력연구원) :a18, 2021-01-01, 2022-12-31
+    400kW급 충전시스템이 적용된 멀티충전 지능형 주차장 (국토교통부) :a19, 2021-01-01, 2022-12-31
+    전기추진선박을 위한 SiC MOSFET 기반 고효율 추진드라이브 개발 (한국조선해양) :a20, 2021-01-01, 2021-12-31
+    차세대 고밀도 전기차 급속충전소에 관한 연구 (KAIST) :a21, 2020-01-01, 2022-12-31
+      </pre>
+    </div>
+  </div>
 </body>
 </html>
