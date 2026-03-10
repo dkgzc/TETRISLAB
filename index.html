@@ -146,17 +146,23 @@
     .legend {
       position: absolute;
       top: 58px;
-      right: 620px;
+    
+      /* Project列宽度 = 42% */
+      left: calc(42% + 20px);
+    
       display: flex;
       flex-direction: column;
       gap: 10px;
+    
       font-size: 16px;
       font-weight: 700;
       color: var(--text);
-      background: rgba(255, 255, 255, 0.96);
+    
+      background: rgba(255,255,255,0.95);
       border: 1px solid var(--line);
       border-radius: 14px;
       padding: 14px 16px;
+    
       box-shadow: 0 4px 12px rgba(0,0,0,0.06);
       z-index: 5;
     }
@@ -277,6 +283,15 @@
         width: fit-content;
       }
     }
+      @media (max-width: 900px) {
+  
+    .legend {
+      position: static;
+      margin: 14px 0 0 auto;
+      width: fit-content;
+    }
+  
+  }
   </style>
 </head>
 <body>
