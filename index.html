@@ -4,75 +4,491 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Research Projects Timeline</title>
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({
-      startOnLoad: true,
-      theme: 'default',
-      securityLevel: 'loose'
-    });
-  </script>
   <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --bar: #4f46e5;
+      --bar2: #0ea5e9;
+      --bar3: #10b981;
+      --bar4: #f59e0b;
+      --bar5: #ef4444;
+      --card: #f9fafb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      padding: 24px;
       font-family: Arial, "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
-      background: #ffffff;
+      background: var(--bg);
+      color: var(--text);
+      padding: 24px 16px 40px;
     }
-    .wrapper {
-      max-width: 1600px;
+
+    .container {
+      max-width: 1500px;
       margin: 0 auto;
     }
+
     h1 {
-      margin: 0 0 16px 0;
-      font-size: 28px;
+      margin: 0 0 10px;
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .subtitle {
+      margin: 0 0 28px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .timeline-card {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 22px 18px 24px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+    }
+
+    .year-header {
+      display: grid;
+      grid-template-columns: 42% repeat(10, 1fr);
+      gap: 0;
+      border-bottom: 2px solid var(--line);
+      padding-bottom: 10px;
+      margin-bottom: 8px;
+      position: sticky;
+      top: 0;
+      background: white;
+      z-index: 2;
+    }
+
+    .year-header .label {
       font-weight: 700;
+      color: var(--text);
+      font-size: 15px;
+      padding-left: 8px;
     }
-    .chart-box {
-      overflow-x: auto;
-      border: 1px solid #ddd;
-      border-radius: 12px;
-      padding: 16px;
-      background: #fff;
+
+    .year-header .year {
+      text-align: center;
+      font-weight: 700;
+      color: var(--muted);
+      font-size: 14px;
     }
-    .mermaid {
-      min-width: 1400px;
+
+    .rows {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 42% repeat(10, 1fr);
+      align-items: center;
+      min-height: 54px;
+      border-bottom: 1px solid #f0f2f5;
+      padding: 6px 0;
+    }
+
+    .project {
+      padding: 8px 10px 8px 8px;
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 600;
+      color: #111827;
+    }
+
+    .grid {
+      grid-column: 2 / span 10;
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      height: 100%;
+      align-items: center;
+      position: relative;
+    }
+
+    .grid::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(to right, var(--line) 1px, transparent 1px);
+      background-size: calc(100% / 10) 100%;
+      pointer-events: none;
+    }
+
+    .bar-wrap {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      align-items: center;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+    }
+
+    .bar {
+      height: 24px;
+      border-radius: 999px;
+      color: white;
+      font-size: 12px;
+      line-height: 24px;
+      font-weight: 700;
+      padding: 0 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .c1 { background: var(--bar); }
+    .c2 { background: var(--bar2); }
+    .c3 { background: var(--bar3); }
+    .c4 { background: var(--bar4); }
+    .c5 { background: var(--bar5); }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      margin-top: 18px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 999px;
+      flex: 0 0 auto;
+    }
+
+    .footnote {
+      margin-top: 14px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 1100px) {
+      .year-header,
+      .row {
+        grid-template-columns: 48% repeat(10, 1fr);
+      }
+
+      .project {
+        font-size: 13px;
+      }
+
+      .bar {
+        font-size: 11px;
+        padding: 0 8px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      body {
+        padding: 16px 10px 28px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      .subtitle {
+        font-size: 13px;
+      }
+
+      .timeline-card {
+        padding: 16px 10px 18px;
+      }
+
+      .year-header,
+      .row {
+        grid-template-columns: 56% repeat(10, 1fr);
+      }
+
+      .year-header .year {
+        font-size: 11px;
+      }
+
+      .project {
+        font-size: 12px;
+        padding-right: 6px;
+      }
+
+      .bar {
+        height: 20px;
+        line-height: 20px;
+        font-size: 10px;
+        padding: 0 6px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .year-header,
+      .row {
+        grid-template-columns: 60% repeat(10, 1fr);
+      }
+
+      .project {
+        font-size: 11px;
+        line-height: 1.25;
+      }
+
+      .year-header .label {
+        font-size: 12px;
+      }
+
+      .year-header .year {
+        font-size: 10px;
+      }
+
+      .bar {
+        font-size: 9px;
+        padding: 0 4px;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="wrapper">
+  <div class="container">
     <h1>Research Projects Timeline</h1>
-    <div class="chart-box">
-      <pre class="mermaid">
-gantt
-    title 연구 프로젝트 일정
-    dateFormat YYYY-MM-DD
-    axisFormat %Y
-    todayMarker off
+    <p class="subtitle">2020–2029</p>
 
-    고신뢰성 UPS 제어 알고리즘 개발 (에어포인트) :a1, 2026-01-01, 2026-12-31
-    전기차 OBC 통합 평면 변압기 최적화 연구 (현대자동차) :a2, 2025-01-01, 2026-12-31
-    ESS용 전력변환시스템 신뢰성 고도화 연구 (LS일렉트릭) :a3, 2025-01-01, 2026-12-31
-    반도체 변압기 시뮬레이션 플랫폼 개발 (LS일렉트릭) :a4, 2025-01-01, 2025-12-31
-    우주항공용 내방사선 GaN기반 DC-DC 컨버터 개발 (한국전자통신연구원) :a5, 2025-01-01, 2029-12-31
-    고속 고장 검출 및 분류 알고리즘 개발 (동우일렉트릭) :a6, 2025-01-01, 2025-12-31
-    ESS용 3레벨 인버터 기반 PCS 최적 설계 (에코캡) :a7, 2024-01-01, 2025-12-31
-    고접압 전기차 배터리 전력제어 기술 개발 (셀포인트) :a8, 2024-01-01, 2025-12-31
-    전기추진선박 모터 구동 HILS 모델 개발 (현대일렉트릭) :a9, 2023-01-01, 2023-12-31
-    수소 연료전지 기반 전기트렉터 개발 (농림축산식품부) :a10, 2023-01-01, 2023-12-31
-    GaN 기반 전기차 온보드 충전기 최적 회로 연구 (현대자동차) :a11, 2023-01-01, 2026-12-31
-    특고압 직류 수전용 2MW 모듈형 컨버터스테이션 기술 개발 (산업통상자원부) :a12, 2022-01-01, 2026-12-31
-    로봇향 3.3kW 군집 무선충전 핵심기술 개발 (과학기술정보통신부) :a13, 2022-01-01, 2025-12-31
-    20kW 급 전기구동 트랙터 상용화 기술 개발 (농림축산식품부) :a14, 2022-01-01, 2024-12-31
-    지하도시 고밀도 전력인프라 구현을 위한 핵심 기술 개발 (KAIST) :a15, 2022-01-01, 2023-12-31
-    PMIC 소형화를 위한 회로 및 제어 기법 연구 (삼성전자) :a16, 2022-01-01, 2022-12-31
-    e-모빌리티 업사이클링 핵심 기술 개발 (KAIST) :a17, 2021-01-01, 2022-12-31
-    양방향 무선전력전송 SiC 기반 고효율 전력변환모듈 개발 (전력연구원) :a18, 2021-01-01, 2022-12-31
-    400kW급 충전시스템이 적용된 멀티충전 지능형 주차장 (국토교통부) :a19, 2021-01-01, 2022-12-31
-    전기추진선박을 위한 SiC MOSFET 기반 고효율 추진드라이브 개발 (한국조선해양) :a20, 2021-01-01, 2021-12-31
-    차세대 고밀도 전기차 급속충전소에 관한 연구 (KAIST) :a21, 2020-01-01, 2022-12-31
-      </pre>
+    <div class="timeline-card">
+      <div class="year-header">
+        <div class="label">Project</div>
+        <div class="year">2020</div>
+        <div class="year">2021</div>
+        <div class="year">2022</div>
+        <div class="year">2023</div>
+        <div class="year">2024</div>
+        <div class="year">2025</div>
+        <div class="year">2026</div>
+        <div class="year">2027</div>
+        <div class="year">2028</div>
+        <div class="year">2029</div>
+      </div>
+
+      <div class="rows">
+
+        <div class="row">
+          <div class="project">차세대 고밀도 전기차 급속충전소에 관한 연구 (KAIST)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c1" style="grid-column: 1 / 4;">2020–2022</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">e-모빌리티 업사이클링 핵심 기술 개발 (KAIST)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c2" style="grid-column: 2 / 4;">2021–2022</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">양방향 무선전력전송 SiC 기반 고효율 전력변환모듈 개발 (전력연구원)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c3" style="grid-column: 2 / 4;">2021–2022</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">400kW급 충전시스템이 적용된 멀티충전 지능형 주차장 (국토교통부)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c4" style="grid-column: 2 / 4;">2021–2022</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">전기추진선박을 위한 SiC MOSFET 기반 고효율 추진드라이브 개발 (한국조선해양)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c5" style="grid-column: 2 / 3;">2021</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">특고압 직류 수전용 2MW 모듈형 컨버터스테이션 기술 개발 (산업통상자원부)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c1" style="grid-column: 3 / 8;">2022–2026</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">로봇향 3.3kW 군집 무선충전 핵심기술 개발 (과학기술정보통신부)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c2" style="grid-column: 3 / 7;">2022–2025</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">20kW 급 전기구동 트랙터 상용화 기술 개발 (농림축산식품부)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c3" style="grid-column: 3 / 6;">2022–2024</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">지하도시 고밀도 전력인프라 구현을 위한 핵심 기술 개발 (KAIST)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c4" style="grid-column: 3 / 5;">2022–2023</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">PMIC 소형화를 위한 회로 및 제어 기법 연구 (삼성전자)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c5" style="grid-column: 3 / 4;">2022</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">전기추진선박 모터 구동 HILS 모델 개발 (현대일렉트릭)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c1" style="grid-column: 4 / 5;">2023</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">수소 연료전지 기반 전기트렉터 개발 (농림축산식품부)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c2" style="grid-column: 4 / 5;">2023</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">GaN 기반 전기차 온보드 충전기 최적 회로 연구 (현대자동차)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c3" style="grid-column: 4 / 8;">2023–2026</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">ESS용 3레벨 인버터 기반 PCS 최적 설계 (에코캡)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c4" style="grid-column: 5 / 7;">2024–2025</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">고접압 전기차 배터리 전력제어 기술 개발 (셀포인트)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c5" style="grid-column: 5 / 7;">2024–2025</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">전기차 OBC 통합 평면 변압기 최적화 연구 (현대자동차)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c1" style="grid-column: 6 / 8;">2025–2026</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">ESS용 전력변환시스템 신뢰성 고도화 연구 (LS일렉트릭)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c2" style="grid-column: 6 / 8;">2025–2026</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">반도체 변압기 시뮬레이션 플랫폼 개발 (LS일렉트릭)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c3" style="grid-column: 6 / 7;">2025</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">우주항공용 내방사선 GaN기반 DC-DC 컨버터 개발 (한국전자통신연구원)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c4" style="grid-column: 6 / 11;">2025–2029</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">고속 고장 검출 및 분류 알고리즘 개발 (동우일렉트릭)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c5" style="grid-column: 6 / 7;">2025</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="project">고신뢰성 UPS 제어 알고리즘 개발 (에어포인트)</div>
+          <div class="grid">
+            <div class="bar-wrap">
+              <div class="bar c1" style="grid-column: 7 / 8;">2026</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="legend">
+        <div class="legend-item"><span class="dot c1"></span><span>Power Conversion</span></div>
+        <div class="legend-item"><span class="dot c2"></span><span>Wireless / Charging</span></div>
+        <div class="legend-item"><span class="dot c3"></span><span>Automotive / Mobility</span></div>
+        <div class="legend-item"><span class="dot c4"></span><span>Infrastructure / Aerospace</span></div>
+        <div class="legend-item"><span class="dot c5"></span><span>Control / Device / Simulation</span></div>
+      </div>
+
+      <div class="footnote">
+        Embedded timeline optimized for Google Sites. Responsive layout for desktop, tablet, and mobile.
+      </div>
     </div>
   </div>
 </body>
