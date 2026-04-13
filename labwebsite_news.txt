@@ -1,317 +1,255 @@
+<h3 style="
+  margin: 0 0 14px 0;
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+">2026</h3>
+
 <div style="
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background: transparent;
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
   color: #f8fafc;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-">
+">[April 2026]</div>
+<ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(236,72,153,0.18); color:#fce7f3; font-size:13px; font-weight:700; vertical-align:middle;">Event</span>
+    Our lab had a joyful <strong>Strawberry Party</strong> together.
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(236,72,153,0.18); color:#fce7f3; font-size:13px; font-weight:700; vertical-align:middle;">Event</span>
+    <strong>Executive Vice President of LS ELECTRIC</strong> is scheduled to visit our lab.
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
+    A new project, <strong>“에너지분야 차세대리더 육성 사업”</strong>, was launched with support from <strong>기후에너지환경부</strong>.
+  </li>
+</ul>
 
 <div style="
-  box-sizing: border-box;
-  padding: 4px 18px 8px 8px;
-  line-height: 1.72;
-  background: linear-gradient(180deg, rgba(3,7,18,0.34) 0%, rgba(3,7,18,0.18) 100%);
-  border-radius: 10px;
-">
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[March 2026]</div>
+<ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(236,72,153,0.18); color:#fce7f3; font-size:13px; font-weight:700; vertical-align:middle;">Event</span>
+    Our lab hosted <strong>Lab Open Day</strong>.
+  </li>
+</ul>
 
-    <h3 style="
-      margin: 0 0 14px 0;
-      font-size: 24px;
-      font-weight: 800;
-      color: #ffffff;
-      letter-spacing: -0.2px;
-    ">2026</h3>
+<div style="
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[February 2026]</div>
+<ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(168,85,247,0.18); color:#f3e8ff; font-size:13px; font-weight:700; vertical-align:middle;">People</span>
+    <strong>Jeong Bae Park</strong>, <strong>Jun Gwon</strong>, and <strong>Byungju Lee</strong> graduated from our lab. Congratulations!
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(168,85,247,0.18); color:#f3e8ff; font-size:13px; font-weight:700; vertical-align:middle;">People</span>
+    <strong>Euichan Jeong</strong>, <strong>Seong Woo Son</strong>, and <strong>Yerim Kim</strong> joined our lab. Welcome!
+  </li>
+</ul>
 
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[April 2026]</div>
-    <ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
-        A new project, <strong>“에너지분야 차세대리더 육성 사업”</strong>, was launched with support from <strong>기후에너지환경부</strong>.
-      </li>
-    </ul>
+<div style="
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[January 2026]</div>
+<ul style="margin: 0 0 28px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
+    Our paper, <strong>“Optimization of Receiver Coil With Minimized Coupling Coefficient Variation and High Coil Inductance for High Efficiency 2-Stage WPT System of EVs Based on SAE-J2954,”</strong> was published in <strong>IEEE Access</strong>.
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
+    Two papers were accepted to <strong>PCIM 2026</strong>: <strong>“Optimal Design of High Leakage Inductance Integrated Planar Transformer with Interleaved Winding”</strong> and <strong>“4D Design Space Based Unified Magnetic and Circuit Design Optimization Framework for CLLC Converter.”</strong> Congratulations to the first authors, <strong>H. Ahmad</strong> and <strong>J. Song</strong>!
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
+    One paper was accepted to <strong>IPEC-Nagasaki 2026 - ECCE Asia</strong>: <strong>“Dual-transmitter Coil-based Series-stacked Class E Inverter for High-efficiency WPT System.”</strong> Congratulations to the first author, <strong>C.-Y. Chu</strong>!
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
+    A new project, <strong>“UPS 시스템용 고신뢰성 제어 알고리즘 개발”</strong>, was launched with <strong>에어포인트</strong>.
+  </li>
+</ul>
 
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[February 2026]</div>
-    <ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(168,85,247,0.18); color:#f3e8ff; font-size:13px; font-weight:700; vertical-align:middle;">People</span>
-        <strong>Jeong Bae Park</strong>, <strong>Jun Gwon</strong>, and <strong>Byungju Lee</strong> graduated from our lab. Congratulations!
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(168,85,247,0.18); color:#f3e8ff; font-size:13px; font-weight:700; vertical-align:middle;">People</span>
-        <strong>Uichan Jeong</strong>, <strong>Seong Woo Son</strong>, and <strong>Yerim Kim</strong> joined our lab. Welcome!
-      </li>
-    </ul>
+<h3 style="
+  margin: 0 0 14px 0;
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+">2025</h3>
 
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[January 2026]</div>
-    <ul style="margin: 0 0 28px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
-        Our paper, <strong>“Optimization of Receiver Coil With Minimized Coupling Coefficient Variation and High Coil Inductance for High Efficiency 2-Stage WPT System of EVs Based on SAE-J2954,”</strong> was published in <strong>IEEE Access</strong>.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
-        Two papers were accepted to <strong>PCIM 2026</strong>: <strong>“Optimal Design of High Leakage Inductance Integrated Planar Transformer with Interleaved Winding”</strong> and <strong>“4D Design Space Based Unified Magnetic and Circuit Design Optimization Framework for CLLC Converter.”</strong> Congratulations to the first authors, <strong>H. Ahmad</strong> and <strong>J. Song</strong>!
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
-        One paper was accepted to <strong>IPEC-Nagasaki 2026 - ECCE Asia</strong>: <strong>“Dual-transmitter Coil-based Series-stacked Class E Inverter for High-efficiency WPT System.”</strong> Congratulations to the first author, <strong>C.-Y. Chu</strong>!
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
-        A new project, <strong>“UPS 시스템용 고신뢰성 제어 알고리즘 개발”</strong>, was launched with <strong>에어포인트</strong>.
-      </li>
-    </ul>
+<div style="
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[December 2025]</div>
+<ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(236,72,153,0.18); color:#fce7f3; font-size:13px; font-weight:700; vertical-align:middle;">Event</span>
+    Our lab held a <strong>joint seminar with SNU and POSTECH</strong>.
+  </li>
+</ul>
 
-    <h3 style="
-      margin: 0 0 14px 0;
-      font-size: 24px;
-      font-weight: 800;
-      color: #ffffff;
-      letter-spacing: -0.2px;
-    ">2025</h3>
+<div style="
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[November 2025]</div>
+<ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(236,72,153,0.18); color:#fce7f3; font-size:13px; font-weight:700; vertical-align:middle;">Event</span>
+    <strong>Dong-Woo Hyun</strong> won the <strong>Best Paper Award</strong> at <strong>ICEMS 2025</strong>. Congratulations! 
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
+    Prof. Ki-Bum Park delivered a talk, <strong>“Next Generation Power Grid,”</strong> at the <strong>KAIST Strategic Forum: Energy Security</strong>, KAIST, Daejeon, Korea.
+  </li>
+</ul>
 
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[November 2025]</div>
-    <ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
-        Prof. Ki-Bum Park delivered a talk, <strong>“Next Generation Power Grid,”</strong> at the <strong>KAIST Strategic Forum: Energy Security</strong>, KAIST, Daejeon, Korea.
-      </li>
-    </ul>
+<div style="
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[September 2025]</div>
+<ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(168,85,247,0.18); color:#f3e8ff; font-size:13px; font-weight:700; vertical-align:middle;">People</span>
+    <strong>Seongmin Lee</strong> joined our lab. Welcome!
+  </li>
+</ul>
 
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[September 2025]</div>
-    <ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(168,85,247,0.18); color:#f3e8ff; font-size:13px; font-weight:700; vertical-align:middle;">People</span>
-        <strong>Seongmin Lee</strong> joined our lab. Welcome!
-      </li>
-    </ul>
+<div style="
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[July 2025]</div>
+<ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
+    Prof. Ki-Bum Park delivered a talk, <strong>“Multi-winding Transformer Design for Multi-active Bridge (MAB) Converter,”</strong> at the <strong>KIPE Passive Component Research Group</strong>, Pyeongchang, Korea.
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
+    Prof. Ki-Bum Park gave a talk, <strong>“GaN-based Bidirectional DC-DC Converter for EV On-board Charger,”</strong> at the <strong>University of Kassel</strong>, Germany.
+  </li>
+</ul>
 
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[July 2025]</div>
-    <ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
-        Prof. Ki-Bum Park delivered a talk, <strong>“Multi-winding Transformer Design for Multi-active Bridge (MAB) Converter,”</strong> at the <strong>KIPE Passive Component Research Group</strong>, Pyeongchang, Korea.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
-        Prof. Ki-Bum Park gave a talk, <strong>“GaN-based Bidirectional DC-DC Converter for EV On-board Charger,”</strong> at the <strong>University of Kassel</strong>, Germany.
-      </li>
-    </ul>
+<div style="
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[June 2025]</div>
+<ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
+    Prof. Ki-Bum Park delivered a talk, <strong>“DC-DC Converter Design for High Voltage System,”</strong> at the <strong>KIPE Expert Workshop</strong>, Seoul, Korea.
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
+    Our paper, <strong>“Advanced Control of Grid-Connected Microgrids: Challenges, Advances, and Trends,”</strong> was published in <strong>IEEE Transactions on Power Electronics</strong>.
+  </li>
+</ul>
 
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[June 2025]</div>
-    <ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
-        Prof. Ki-Bum Park delivered a talk, <strong>“DC-DC Converter Design for High Voltage System,”</strong> at the <strong>KIPE Expert Workshop</strong>, Seoul, Korea.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
-        Our paper, <strong>“Advanced Control of Grid-Connected Microgrids: Challenges, Advances, and Trends,”</strong> was published in <strong>IEEE Transactions on Power Electronics</strong>.
-      </li>
-    </ul>
+<div style="
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[May 2025]</div>
+<ul style="margin: 0 0 28px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
+    Prof. Ki-Bum Park delivered a talk, <strong>“Technology Trend of DAB Converter in DC Grids and EV Applications,”</strong> at <strong>KETI</strong>, Gwangju, Korea.
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
+    Our paper, <strong>“Dual-Band Rectifier Using Coupled Inductor for Wireless Power Transfer Receivers,”</strong> was published in <strong>IEEE Transactions on Power Electronics</strong>.
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
+    Three papers were accepted to <strong>ECCE 2025</strong>: <strong>“Hierarchical Data-driven Multi-winding Transformer Design Framework,”</strong> <strong>“From Images to Inductance: Modeling Transformers with Vision Transformer,”</strong> and <strong>“Power Flow Analysis of Dual Active Bridge Converter with Series Capacitors for Topology Morphing.”</strong> Congratulations to the first authors, <strong>K. Wang</strong> and <strong>J. Song</strong>!
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
+    Four papers were accepted to <strong>ICEMS 2025</strong>: <strong>“Lookup Table-based Dual-phase-shift Modulation with Online Reinforcement Learning for Efficiency Optimization in DAB Converter,”</strong> <strong>“Phaselet-based Phasor Extraction Incorporating SOGI for Rapid Fault Detection in Power System,”</strong> <strong>“A Feedforward Compensation Method to Reduce DC-link Voltage Ripple of PFC Converter in OBC-based Impedance Spectrum Measurement,”</strong> and <strong>“Fault Diagnosis in Power Transmission Lines Using SOGI-based ANN.”</strong> Congratulations to the first authors, <strong>J. Park</strong>, <strong>J. Gwon</strong>, <strong>D.-W. Hyun</strong>, and <strong>Y. Jeon</strong>!
+  </li>
+</ul>
 
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[May 2025]</div>
-    <ul style="margin: 0 0 28px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
-        Prof. Ki-Bum Park delivered a talk, <strong>“Technology Trend of DAB Converter in DC Grids and EV Applications,”</strong> at <strong>KETI</strong>, Gwangju, Korea.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
-        Our paper, <strong>“Dual-Band Rectifier Using Coupled Inductor for Wireless Power Transfer Receivers,”</strong> was published in <strong>IEEE Transactions on Power Electronics</strong>.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
-        Three papers were accepted to <strong>ECCE 2025</strong>: <strong>“Hierarchical Data-driven Multi-winding Transformer Design Framework,”</strong> <strong>“From Images to Inductance: Modeling Transformers with Vision Transformer,”</strong> and <strong>“Power Flow Analysis of Dual Active Bridge Converter with Series Capacitors for Topology Morphing.”</strong> Congratulations to the first authors, <strong>K. Wang</strong> and <strong>J. Song</strong>!
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
-        Four papers were accepted to <strong>ICEMS 2025</strong>: <strong>“Lookup Table-based Dual-phase-shift Modulation with Online Reinforcement Learning for Efficiency Optimization in DAB Converter,”</strong> <strong>“Phaselet-based Phasor Extraction Incorporating SOGI for Rapid Fault Detection in Power System,”</strong> <strong>“A Feedforward Compensation Method to Reduce DC-link Voltage Ripple of PFC Converter in OBC-based Impedance Spectrum Measurement,”</strong> and <strong>“Fault Diagnosis in Power Transmission Lines Using SOGI-based ANN.”</strong> Congratulations to the first authors, <strong>J. Park</strong>, <strong>J. Gwon</strong>, <strong>D.-W. Hyun</strong>, and <strong>Y. Jeon</strong>!
-      </li>
-    </ul>
+<h3 style="
+  margin: 0 0 14px 0;
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.2px;
+">2024</h3>
 
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[January 2025]</div>
-    <ul style="margin: 0 0 28px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
-        A new project, <strong>“EV OBC용 집적형 평판 변압기 최적화”</strong>, was launched with <strong>현대자동차</strong>.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
-        A new project, <strong>“ESS용 PCS 신뢰성 향상 연구”</strong>, was launched with <strong>LS일렉트릭</strong>.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
-        A new project, <strong>“고체변압기 시뮬레이션 플랫폼 개발”</strong>, was launched with <strong>LS일렉트릭</strong>.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
-        A new long-term project, <strong>“항공우주용 내방사선 GaN 기반 DC-DC 컨버터 개발”</strong>, was launched with <strong>한국전자통신연구원(ETRI)</strong>.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
-        A new project, <strong>“고속 고장 검출 및 분류 알고리즘 개발”</strong>, was launched with <strong>동우전기</strong>.
-      </li>
-    </ul>
+<div style="
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[July 2024]</div>
+<ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(236,72,153,0.18); color:#fce7f3; font-size:13px; font-weight:700; vertical-align:middle;">Event</span>
+    Director <strong>김찬기</strong> of <strong>KEPRI</strong> gave a seminar at our lab.
+  </li>
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
+    Our paper, <strong>“Bidirectional DC-DC Converters for Distributed Energy Resources: Robust Predictive Control with Structurally-adaptive Extended State Observers,”</strong> was published in the <strong>International Journal of Electrical Power and Energy Systems</strong>.
+  </li>
+</ul>
 
-    <h3 style="
-      margin: 0 0 14px 0;
-      font-size: 24px;
-      font-weight: 800;
-      color: #ffffff;
-      letter-spacing: -0.2px;
-    ">2024</h3>
-
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[November 2024]</div>
-    <ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
-        Prof. Ki-Bum Park delivered a talk, <strong>“Impact of Core Technology of Power Electronics,”</strong> at <strong>ETRI</strong>, Daejeon, Korea.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
-        Our paper, <strong>“Generalized Model Predictive Torque Control of Synchronous Machines,”</strong> was published online in <strong>IEEE/ASME Transactions on Mechatronics</strong>.
-      </li>
-    </ul>
-
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[July 2024]</div>
-    <ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
-        Our paper, <strong>“Bidirectional DC-DC Converters for Distributed Energy Resources: Robust Predictive Control with Structurally-adaptive Extended State Observers,”</strong> was published in the <strong>International Journal of Electrical Power and Energy Systems</strong>.
-      </li>
-    </ul>
-
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[April 2024]</div>
-    <ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
-        Prof. Ki-Bum Park delivered a seminar, <strong>“Power Electronics Technology for Mobility Electrification,”</strong> at the <strong>TU Berlin-KAIST Seminar</strong>, Daejeon, Korea.
-      </li>
-    </ul>
-
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[February 2024]</div>
-    <ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(249,115,22,0.18); color:#ffedd5; font-size:13px; font-weight:700; vertical-align:middle;">Talk</span>
-        Prof. Ki-Bum Park delivered a talk, <strong>“MVDC Transformer Design,”</strong> at <strong>KERI</strong>, Changwon, Korea.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(59,130,246,0.18); color:#dbeafe; font-size:13px; font-weight:700; vertical-align:middle;">Paper</span>
-        Our paper, <strong>“A Hybrid Si-SiC Flyback Converter for Auxiliary Power Supplies in DC Ship Grids,”</strong> was presented at <strong>APEC 2024</strong>.
-      </li>
-    </ul>
-
-    <div style="
-      margin: 0 0 10px 0;
-      padding-left: 10px;
-      border-left: 3px solid rgba(255,255,255,0.7);
-      font-size: 18px;
-      font-weight: 800;
-      color: #f8fafc;
-    ">[January 2024]</div>
-    <ul style="margin: 0 0 28px 22px; padding: 0; max-width: 980px;">
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
-        A new project, <strong>“ESS 전력변환시스템용 3레벨 인버터 설계”</strong>, was launched with <strong>에코캡</strong>.
-      </li>
-      <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
-        <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(34,197,94,0.18); color:#dcfce7; font-size:13px; font-weight:700; vertical-align:middle;">Project</span>
-        A new project, <strong>“고전압 EV 배터리 시스템용 전력제어 기술 개발”</strong>, was launched with <strong>셀포인트</strong>.
-      </li>
-    </ul>
-
-  </div>
-</div>
+<div style="
+  margin: 0 0 10px 0;
+  padding-left: 10px;
+  border-left: 3px solid rgba(255,255,255,0.7);
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fafc;
+">[June 2024]</div>
+<ul style="margin: 0 0 22px 22px; padding: 0; max-width: 980px;">
+  <li style="margin-bottom: 12px; color: rgba(255,255,255,0.95);">
+    <span style="display:inline-block; padding:2px 8px; margin-right:8px; border-radius:999px; background:rgba(236,72,153,0.18); color:#fce7f3; font-size:13px; font-weight:700; vertical-align:middle;">Event</span>
+    Our lab held a <strong>joint seminar with SNU and POSTECH</strong>.
+  </li>
+</ul>
